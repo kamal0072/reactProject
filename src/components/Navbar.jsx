@@ -10,7 +10,7 @@ export default function Navbar() {
           listStyleType: "none",
           padding: 10,
           justifyContent: "space-around",
-          backgroundColor: "darkcyan",
+          backgroundColor: "darkgreen",
           margin: 0,
           color: "white",
         }}
@@ -18,7 +18,7 @@ export default function Navbar() {
         <li>
           <NavLink
             style={({ isActive }) =>
-              isActive ? { color: "yellow", textDecoration: "none" } : {}
+              isActive ? { color: "white", textDecoration: "none", fontWeight: "bold" } : {}
             }
             to="/"
             state={{ name: "alex", roll: 10 }}
@@ -29,7 +29,7 @@ export default function Navbar() {
         <li>
           <NavLink
             style={({ isActive }) =>
-              isActive ? { color: "yellow", textDecoration: "none" } : {}
+              isActive ? { color: "white", textDecoration: "none", fontWeight: "bold" } : {}
             }
             to="about"
             state={{ name: "peter", roll: 20 }}
@@ -40,7 +40,7 @@ export default function Navbar() {
         <li>
           <NavLink
             style={({ isActive }) =>
-              isActive ? { color: "yellow", textDecoration: "none" } : {}
+              isActive ? { color: "white", textDecoration: "none", fontWeight: "bold" } : {}
             }
             to="calculator"
             state={{ name: "ashok", roll: 30 }}
@@ -51,7 +51,7 @@ export default function Navbar() {
         <li>
           <NavLink
             style={({ isActive }) =>
-              isActive ? { color: "yellow", textDecoration: "none" } : {}
+              isActive ? { color: "white", textDecoration: "none", fontWeight: "bold" } : {}
             }
             to="user-detail"
             state={{ name: "khan", roll: 103 }}
